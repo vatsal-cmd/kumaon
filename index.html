@@ -1,0 +1,1370 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Kumaon</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <!-- <link rel="manifest" href="site.webmanifest"> -->
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+  <!-- Place favicon.ico in the root directory -->
+  <style>
+    #loading {
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #fff url('img/preloader2.gif') no-repeat center center;
+      z-index: 99999;
+    }
+
+    .animated {
+      animation: up-down 2s ease-in-out infinite alternate-reverse both;
+      -webkit-animation: none;
+      animation: none;
+    }
+  </style>
+
+  <!-- CSS here -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/magnific-popup.css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/themify-icons.css" />
+  <link rel="stylesheet" href="css/nice-select.css" />
+  <link rel="stylesheet" href="css/flaticon.css" />
+  <link rel="stylesheet" href="css/gijgo.css" />
+  <link rel="stylesheet" href="css/animate.css" />
+  <link rel="stylesheet" href="css/slicknav.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+</head>
+
+<body onload="myFunction()">
+  <div id="loading">
+
+  </div>
+  <!--[if lte IE 9]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
+
+  <!-- header-start -->
+  <header>
+    <div class="header-area">
+      <div id="sticky-header" class="main-header-area">
+        <div class="container-fluid p-0">
+          <div class="row align-items-center no-gutters">
+            <div class="col-xl-2 col-lg-2">
+              <div class="logo-img">
+                <a href="index.html" style="font-weight: bold; color: white; font-size: larger">
+                  <img src="img/logok2.png" style="height: 70px; width: 140px" />
+                </a>
+              </div>
+            </div>
+            <div class="col-xl-7 col-lg-7">
+              <div class="main-menu d-none d-lg-block">
+                <nav>
+                  <ul id="navigation">
+                    <li><a href="photon/index.html" class="login">
+                        <i class="fa fa-photo" style="font-size: large;"></i>
+                        <span> Gallery </span>
+                      </a></li>
+                    <li><a href="#hwc" class="login">
+                        <i class="fa fa-user" style="font-size: large;"></i>
+                        <span> HWC </span>
+                      </a></li>
+
+                    <li>
+                      <a href="tel:+919599769349">
+                        <i class="fa fa-phone" style="font-size: large;"></i>
+                        <span>+91 9599769349</span>
+                      </a>
+              </div>
+              </li>
+              </ul>
+              </nav>
+            </div>
+            <div class="col-xl-3 col-lg-3 d-none d-lg-block">
+
+              <div class="live_chat_btn">
+                <a class="boxed_btn_orange login popup-with-form" style="background-color: #49a5a0;" href="#test-form3">
+                  <span style="font-size: large;">Complaint</span>
+                </a>
+                <a class="boxed_btn_orange login popup-with-form" style="background-color: #49a5a0;" href="#test-form2">
+                  <span style="font-size: large;">Mess</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="mobile_menu d-block d-lg-none"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </header>
+  <!-- header-end -->
+  <!-- feedback -->
+  <style>
+    .feedback {
+      height: 40px;
+      border: solid 2px #ffffff;
+      border-radius: 15px 15px 0 0;
+      background: #49a5a0;
+      width: 120px;
+      line-height: 32px;
+      -webkit-transform: rotate(-90deg);
+      font-weight: 600;
+      color: white;
+      transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+      -moz-transform: rotate(-90deg);
+      text-align: center;
+      font-size: 17px;
+      position: fixed;
+      right: -45px;
+      top: 50%;
+      font-family: "Roboto", helvetica, arial, sans-serif;
+      z-index: 999;
+    }
+
+    .feedback1 {
+      height: 40px;
+      border: solid 2px #ffffff;
+      border-radius: 15px 15px 0px 0px;
+      background: #49a5a0;
+      width: 120px;
+      line-height: 32px;
+      -webkit-transform: rotate(-90deg);
+      font-weight: 600;
+      color: white;
+      transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+      -moz-transform: rotate(-90deg);
+      text-align: center;
+      font-size: 17px;
+      position: fixed;
+      right: -45px;
+      top: 30%;
+      font-family: "Roboto", helvetica, arial, sans-serif;
+      z-index: 999;
+    }
+  </style>
+  <button class="feedback"><a href="#test-form3" class="login popup-with-form">
+
+      <span style="color: white;text-decoration:none;">Complaint</span>
+    </a></button>
+  <button class="feedback1"><a href="#test-form2" class="login popup-with-form">
+
+      <span style="color: white;text-decoration:none;">Mess</span>
+    </a></button>
+  <!-- slider_area_start -->
+  <div class="slider_area">
+    <div class="single_slider d-flex align-items-center justify-content-center slider_bg_1">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-xl-6 col-md-6">
+            <div class="illastrator_png">
+              <img src="img/Untitled-1edited.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-xl-6 col-md-6">
+            <div class="slider_info">
+              <h1 style="color: rgb(255,255,255); font-weight: bolder;">
+                Welcome to <br />
+                Kumaon Hostel<br />
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- slider_area_end -->
+
+  <!-- about_area_end -->
+
+  <!-- our_courses_start -->
+  <div class="our_courses" id="hwc">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="section_title text-center mb-100">
+            <h3>Kumaon HWC 2020-21</h3>
+            <p>Always here to help you<br />Make your hostel home</p>
+          </div>
+        </div>
+      </div>
+      <div class="our_team_member">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-3 col-md-6 col-lg-3">
+              <div class="single_team">
+                <div class="thumb"></div>
+                <div class="master_name text-center"></div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6 col-lg-3">
+              <div class="single_team">
+                <div class="thumb">
+                  <img src="http://web.iitd.ac.in/~harshakota/pics/Pic.jpg" alt="" height="280px" />
+                  <div class="social_link">
+                    <a href="mailto:harshakota@iitd.ac.in"><i class="fa fa-envelope"></i></a>
+                    <a href="#"><i class="fa fa-mobile-phone"></i></a>
+                  </div>
+                </div>
+                <div class="master_name text-center">
+                  <h3>Sri Harsha Kota</h3>
+                  <p>Warden</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6 col-lg-3">
+              <div class="single_team">
+                <div class="thumb">
+                  <img src="img/Jayesh(Cultu).jpeg" alt="" height="280px" />
+                  <div class="social_link">
+                    <a href="mailto:jjawandhia.jayesh@gmail.com"><i class="fa fa-envelope"></i></a>
+                    <a href="tel:+919904747597"><i class="fa fa-mobile-phone"></i></a>
+                  </div>
+                </div>
+                <div class="master_name text-center">
+                  <h3>Jayesh Jawandhia</h3>
+                  <p>House Secretary</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6 col-lg-3">
+              <div class="single_team">
+                <div class="thumb"></div>
+                <div class="master_name text-center"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- our_courses_end -->
+  <!-- popular_courses_start -->
+  <div class="popular_courses">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="course_nav">
+            <nav>
+              <ul class="nav" id="myTab" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                    aria-controls="home" aria-selected="true">Secys</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                    aria-controls="profile" aria-selected="false">Mess</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                    aria-controls="contact" aria-selected="false">Cultural</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="design-tab" data-toggle="tab" href="#design" role="tab" aria-controls="design"
+                    aria-selected="false">Sports</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="Web-tab" data-toggle="tab" href="#Web" role="tab" aria-controls="design"
+                    aria-selected="false">Maintenance</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="all_courses">
+      <div class="container">
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active our_team_member" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div class="row">
+              <div class="col-sm">
+                <div class="single_team">
+                  <div class="thumb">
+                    <img src="img/Oli(BSW).jpg" alt="" height="280px" />
+                    <div class="social_link">
+                      <a href="mailto:shubhamoliver23@gmail.com"><i class="fa fa-envelope"></i></a>
+                      <a href="tel:+918112253582"><i class="fa fa-mobile-phone"></i></a>
+
+                    </div>
+                  </div>
+                  <div class="master_name text-center">
+                    <h3>Shubham Singh Rathore</h3>
+                    <p>Sports Secretary</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm">
+                <div class="single_team">
+                  <div class="thumb">
+                    <img src="img/shashwat(squash).jpg" alt="" height="280px" />
+                    <div class="social_link">
+                      <a href="mailto:shashwatgarg7@gmail.com"><i class="fa fa-envelope"></i></a>
+                      <a href="tel:+919068050900"><i class="fa fa-mobile-phone"></i></a>
+                    </div>
+                  </div>
+                  <div class="master_name text-center">
+                    <h3>Shashwat Garg</h3>
+                    <p>SAC Secretary</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm">
+                <div class="single_team">
+                  <div class="thumb">
+                    <img src="img/Jakhar(BSW).jpeg" alt="" height="280px" />
+                    <div class="social_link">
+                      <a href="mailto:shubham3400jakhar@gmail.com"><i class="fa fa-envelope"></i></a>
+                      <a href="tel:+919672061934"><i class="fa fa-mobile-phone"></i></a>
+                    </div>
+                  </div>
+                  <div class="master_name text-center">
+                    <h3>Shubham Jakhar</h3>
+                    <p>Maintenance Secretary</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm">
+                <div class="single_team">
+                  <div class="thumb">
+                    <img src="img/prem(TT).jpg" alt="" height="280px" />
+                    <div class="social_link">
+                      <a href="mailto:premkhandelwal530@gmail.com"><i class="fa fa-envelope"></i></a>
+                      <a href="tel:+916350300554"><i class="fa fa-mobile-phone"></i></a>
+                    </div>
+                  </div>
+                  <div class="master_name text-center">
+                    <h3>Prem Khandelwal</h3>
+                    <p>Cultural Secretary</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm">
+                <div class="single_team">
+                  <div class="thumb">
+                    <img src="img/palway(TT).jpeg" alt="" height="280px" />
+                    <div class="social_link">
+                      <a href="mailto:abhishekpalway@gmail.com"><i class="fa fa-envelope"></i></a>
+                      <a href="tel:+919039223343"><i class="fa fa-mobile-phone"></i></a>
+
+                    </div>
+                  </div>
+                  <div class="master_name text-center">
+                    <h3>Abhishek Palway</h3>
+                    <p>Mess Secretary</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade our_team_member" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <div class="row">
+              <div class="align-item-center"
+                style="margin: 0 auto; float: none; margin-bottom: 10px;width:50%;height:20%">
+                <div class="single_team">
+                  <div class="thumb">
+                    <img src="img/palway(TT).jpeg" alt="" />
+                    <div class="social_link">
+                      <a href="mailto:abhishekpalway@gmail.com"><i class="fa fa-envelope"></i></a>
+                      <a href="tel:+919039223343"><i class="fa fa-mobile-phone"></i></a>
+
+                    </div>
+                  </div>
+                  <div class="master_name text-center">
+                    <h3>Abhishek Palway</h3>
+                    <p>Mess Secretary</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br />
+            <h3 style="
+                  text-align: center;
+                  font-weight: bold;
+                  font-style: 'Comic Sans MS', cursive, sans-serif;
+                ">
+              Mess Community
+            </h3>
+            <br />
+            <div class="row">
+              <div class="col-xl-3 col-md-6 col-lg-3">
+                <div class="single_team">
+                  <div class="thumb">
+                    <img src="img/aarya(bsw).jfif" alt="" />
+                    <div class="social_link">
+                      <a href="#"><i class="fa fa-envelope"></i></a>
+                      <a href="#"><i class="fa fa-mobile-phone"></i></a>
+                      <a href="#"><i class="fa fa-"></i></a>
+                    </div>
+                  </div>
+                  <div class="master_name text-center">
+                    <h3>Aarya Oganja</h3>
+                    <p>Member</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-6 col-lg-3">
+                <div class="single_team">
+                  <div class="thumb">
+                    <img src="img/anwit(baddy).jpg" alt="" />
+                    <div class="social_link">
+                      <a href="#"><i class="fa fa-envelope"></i></a>
+                      <a href="#"><i class="fa fa-mobile-phone"></i></a>
+                      <a href="#"><i class="fa fa-"></i></a>
+                    </div>
+                  </div>
+                  <div class="master_name text-center">
+                    <h3>Anwit Pradhan</h3>
+                    <p>Member</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-6 col-lg-3">
+                <div class="single_team">
+                  <div class="thumb">
+                    <img src="img/yateek(hockey).jpg" alt="" />
+                    <div class="social_link">
+                      <a href="#"><i class="fa fa-envelope"></i></a>
+                      <a href="#"><i class="fa fa-mobile-phone"></i></a>
+                      <a href="#"><i class="fa fa-"></i></a>
+                    </div>
+                  </div>
+                  <div class="master_name text-center">
+                    <h3>Yateek Singh</h3>
+                    <p>Member</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-6 col-lg-3">
+                <div class="single_team">
+                  <div class="thumb">
+                    <img src="img/vatsal(dance).jpeg" alt="" />
+                    <div class="social_link">
+                      <a href="#"><i class="fa fa-envelope"></i></a>
+                      <a href="#"><i class="fa fa-mobile-phone"></i></a>
+                      <a href="#"><i class="fa fa-"></i></a>
+                    </div>
+                  </div>
+                  <div class="master_name text-center">
+                    <h3>Vatsal Jingar</h3>
+                    <p>Member</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade our_team_member" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+            <div class="row">
+              <div class="align-item-center"
+                style="margin: 0 auto; float: none; margin-bottom: 10px;width:50%;height:20%">
+                <div class="single_team">
+                  <div class="thumb">
+                    <img src="img/prem(TT).jpg" alt="" />
+                    <div class="social_link">
+                      <a href="mailto:premkhandelwal530@gmail.com"><i class="fa fa-envelope"></i></a>
+                      <a href="tel:+916350300554"><i class="fa fa-mobile-phone"></i></a>
+                      <a href="#"><i class="fa fa-"></i></a>
+                    </div>
+                  </div>
+                  <div class="master_name text-center">
+                    <h3>Prem Khandelwal</h3>
+                    <p>Cultural Secretary</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br />
+            <h3 style="
+                  text-align: center;
+                  font-weight: bold;
+                  font-style: 'Comic Sans MS', cursive, sans-serif;
+                ">
+     Rep Team
+    </h3>
+    <br />
+    <div class="row">
+      <div class="col-xl-3 col-md-6 col-lg-3">
+        <div class="single_team">
+          <div class="thumb">
+            <img src="img/animesh(bsw).jpeg" alt="" height="270px" />
+            <div class="social_link">
+              <a href="mailto:shubhamoliver23@gmail.com"><i class="fa fa-envelope"></i></a>
+              <a href="tel:+918112253582"><i class="fa fa-mobile-phone"></i></a>
+              <a href="#"><i class="fa fa-"></i></a>
+            </div>
+          </div>
+          <div class="master_name text-center">
+            <h3>Animesh Jhawar</h3>
+            <p>BSW</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-3 col-md-6 col-lg-3">
+        <div class="single_team">
+          <div class="thumb">
+            <img src="img/aarya(bsw).jfif" alt="" height="270px" />
+            <div class="social_link">
+              <a href="mailto:shubham3400jakhar@gmail.com"><i class="fa fa-envelope"></i></a>
+              <a href="tel:+919672061934"><i class="fa fa-mobile-phone"></i></a>
+              <a href="#"><i class="fa fa-"></i></a>
+            </div>
+          </div>
+          <div class="master_name text-center">
+            <h3>Aarya Oganja</h3>
+            <p>BSW</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-3 col-md-6 col-lg-3">
+        <div class="single_team">
+          <div class="thumb">
+            <img src="img/priyanshu(drama).jpeg" alt="" height="270px" />
+            <div class="social_link">
+              <a href="mailto:om.chandra600@gmail.com"><i class="fa fa-envelope"></i></a>
+              <a href="tel:+919582078183"><i class="fa fa-mobile-phone"></i></a>
+              <a href="#"><i class="fa fa-"></i></a>
+            </div>
+          </div>
+          <div class="master_name text-center">
+            <h3>Priyanshu Kumar</h3>
+            <p>Drama</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-3 col-md-6 col-lg-3">
+        <div class="single_team">
+          <div class="thumb">
+            <img src="img/vatsal(dance).jpeg" alt="" height="270px" />
+            <div class="social_link">
+              <a href="mailto:shresthsaxena5@gmail.com"><i class="fa fa-envelope"></i></a>
+              <a href="tel:+918279756297"><i class="fa fa-mobile-phone"></i></a>
+              <a href="#"><i class="fa fa-"></i></a>
+            </div>
+          </div>
+          <div class="master_name text-center">
+            <h3>Vatsal Jingar</h3>
+            <p>Dance</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-3 col-md-6 col-lg-3">
+        <div class="single_team">
+          <div class="thumb">
+            <img src="img/tanmay(hs).jpeg" alt="" height="270px" />
+            <div class="social_link">
+              <a href="mailto:pranitrastogi@gmail.com"><i class="fa fa-envelope"></i></a>
+              <a href="tel:+918788299984"><i class="fa fa-mobile-phone"></i></a>
+              <a href="#"><i class="fa fa-"></i></a>
+            </div>
+          </div>
+          <div class="master_name text-center">
+            <h3>Tanmay Goyal</h3>
+            <p>Hindi Samiti</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-3 col-md-6 col-lg-3">
+        <div class="single_team">
+          <div class="thumb">
+            <img src="img/himanshu(deb).jfif" alt="" height="270px" />
+            <div class="social_link">
+              <a href="mailto:parjanya20@gmail.com"><i class="fa fa-envelope"></i></a>
+              <a href="tel:+919028276503"><i class="fa fa-mobile-phone"></i></a>
+              <a href="#"><i class="fa fa-"></i></a>
+            </div>
+          </div>
+          <div class="master_name text-center">
+            <h3>Himanshu Wadhwa</h3>
+            <p>Debate</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-3 col-md-6 col-lg-3">
+        <div class="single_team">
+          <div class="thumb">
+            <img src="img/piyush(facc).jpg" alt="" height="270px" />
+            <div class="social_link">
+              <a href="mailto:tanmayk565@gmail.com"><i class="fa fa-envelope"></i></a>
+              <a href="tel:+918107561984"><i class="fa fa-mobile-phone"></i></a>
+              <a href="#"><i class="fa fa-"></i></a>
+            </div>
+          </div>
+          <div class="master_name text-center">
+            <h3>Piyush Soni</h3>
+            <p>FACC</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-3 col-md-6 col-lg-3">
+        <div class="single_team">
+          <div class="thumb">
+            <img src="img/sanyam(lit).jpeg" alt="" height="270px" />
+            <div class="social_link">
+              <a href="mailto:pranay1gupta@gmail.com"><i class="fa fa-envelope"></i></a>
+              <a href="tel:+919013651651"><i class="fa fa-mobile-phone"></i></a>
+              <a href="#"><i class="fa fa-"></i></a>
+            </div>
+          </div>
+          <div class="master_name text-center">
+            <h3>Sanyam</h3>
+            <p>Literary</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-3 col-md-6 col-lg-3">
+        <div class="single_team">
+          <div class="thumb">
+            <img src="img/divyansh(music).jpeg" alt="" height="270px" />
+            <div class="social_link">
+              <a href="mailto:vaibhav.verrma@gmail.com"><i class="fa fa-envelope"></i></a>
+              <a href="tel:+917710861643"><i class="fa fa-mobile-phone"></i></a>
+              <a href="#"><i class="fa fa-"></i></a>
+            </div>
+          </div>
+          <div class="master_name text-center">
+            <h3>Divyansh Aggarwal</h3>
+            <p>Music</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-3 col-md-6 col-lg-3">
+        <div class="single_team">
+          <div class="thumb">
+            <img src="img/aayush(pfc).jpeg" alt="" height="270px" />
+            <div class="social_link">
+              <a href="mailto:gunjitjindal@gmail.com"><i class="fa fa-envelope"></i></a>
+              <a href="tel:+919876580388"><i class="fa fa-mobile-phone"></i></a>
+              <a href="#"><i class="fa fa-"></i></a>
+            </div>
+          </div>
+          <div class="master_name text-center">
+            <h3>Aayush Gupta</h3>
+            <p>PFC</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-3 col-md-6 col-lg-3">
+        <div class="single_team">
+          <div class="thumb">
+            <img src="img/Yuyutsu.jpeg" alt="" height="270px" />
+            <div class="social_link">
+              <a href="mailto:anisuyashgupta@gmail.com"><i class="fa fa-envelope"></i></a>
+              <a href="tel:+917986969819"><i class="fa fa-mobile-phone"></i></a>
+              <a href="#"><i class="fa fa-"></i></a>
+            </div>
+          </div>
+          <div class="master_name text-center">
+            <h3>Yuyutsu Saini</h3>
+            <p>ISC</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-3 col-md-6 col-lg-3">
+        <div class="single_team">
+          <div class="thumb">
+            <img src="img/srijan(quizzing).jpeg" alt="" height="270px" />
+            <div class="social_link">
+              <a href="mailto:shobhitjain2468@gmail.com"><i class="fa fa-envelope"></i></a>
+              <a href="tel:+919990560845"><i class="fa fa-mobile-phone"></i></a>
+              <a href="#"><i class="fa fa-"></i></a>
+            </div>
+          </div>
+          <div class="master_name text-center">
+            <h3>Srijan Gupta</h3>
+            <p>Quizzing</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-3 col-md-6 col-lg-3">
+        <div class="single_team">
+          <div class="thumb">
+            <img src="img/aditya(spicmcay).jpeg" alt="" height="270px" />
+            <div class="social_link">
+              <a href="mailto:bb1190035@iitd.ac.in"><i class="fa fa-envelope"></i></a>
+              <a href="tel:+918058156838"><i class="fa fa-mobile-phone"></i></a>
+              <a href="#"><i class="fa fa-"></i></a>
+            </div>
+          </div>
+          <div class="master_name text-center">
+            <h3>Aditya verma</h3>
+            <p>SPIC MACAY</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="tab-pane fade our_team_member" id="design" role="tabpanel" aria-labelledby="design-tab">
+    <div class="row">
+      <div class="align-item-center"
+        style="margin: 0 auto; float: none; margin-bottom: 10px;width:50%;height:20%">
+        <div class="single_team">
+          <div class="thumb">
+            <img src="img/Oli(BSW).jpg" alt="" />
+            <div class="social_link">
+              <a href="mailto:shubhamoliver23@gmail.com"><i class="fa fa-envelope"></i></a>
+              <a href="tel:+918112253582"><i class="fa fa-mobile-phone"></i></a>
+            </div>
+          </div>
+          <div class="master_name text-center">
+            <h3>Shubham Singh Rathore</h3>
+            <p>Sports Secretary</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <h3 style="
+          text-align: center;
+          font-weight: bold;
+          font-style: 'Comic Sans MS', cursive, sans-serif;
+        ">
+   
+              CAPTAINS
+            </h3>
+            <br />
+            <div class="row">
+              <div class="col-xl-3 col-md-6 col-lg-3">
+                <div class="single_team">
+                  <div class="thumb">
+                    <img src="img/Manish(Cricket).jpg" alt="" height="280px" />
+                    <div class="social_link">
+                      <a href="mailto:2025manishjanu@gmail.com"><i class="fa fa-envelope"></i></a>
+                      <a href="tel:+918448556658"><i class="fa fa-mobile-phone"></i></a>
+                      <a href="#"><i class="fa fa-"></i></a>
+                    </div>
+                  </div>
+                  <div class="master_name text-center">
+                    <h3>Manish Janu</h3>
+                    <p>Cricket</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-6 col-lg-3">
+                <div class="single_team">
+                  <div class="thumb">
+                    <img src="img/Vivkek(weightlift).jpg" alt="" height="280px" />
+                    <div class="social_link">
+                      <a href="mailto:beingvivek10@gmail.com"><i class="fa fa-envelope"></i></a>
+                      <a href="tel:+919823335904"><i class="fa fa-mobile-phone"></i></a>
+                      <a href="#"><i class="fa fa-"></i></a>
+                    </div>
+                  </div>
+                  <div class="master_name text-center">
+                    <h3>Vivek Gaizwal</h3>
+                    <p>Weightlifting</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-6 col-lg-3">
+                <div class="single_team">
+                  <div class="thumb">
+                    <img src="img/Vishal(hockey).jpg" alt="" height="280px" />
+                    <div class="social_link">
+                      <a href="mailto:vkd1837@gmail.com"><i class="fa fa-envelope"></i></a>
+                      <a href="tel:+919116441837"><i class="fa fa-mobile-phone"></i></a>
+                      <a href="#"><i class="fa fa-"></i></a>
+                    </div>
+                  </div>
+                  <div class="master_name text-center">
+                    <h3>Vishal Dhukia</h3>
+                    <p>Hockey</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-6 col-lg-3">
+                <div class="single_team">
+                  <div class="thumb">
+                    <img src="img/Prashant(basky).jpg" alt="" height="280px" />
+                    <div class="social_link">
+                      <a href="mailto:prashantsakerwal@gmail.com"><i class="fa fa-envelope"></i></a>
+                      <a href="tel:+918619547922"><i class="fa fa-mobile-phone"></i></a>
+                      <a href="#"><i class="fa fa-"></i></a>
+                    </div>
+                  </div>
+                  <div class="master_name text-center">
+                    <h3>Prashant Sakerwal</h3>
+                    <p>Basketball</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-3 col-md-6 col-lg-3">
+                <div class="single_team">
+                  <div class="thumb">
+                    <img src="img/praveen(volley).jpg" alt="" height="280px" />
+                    <div class="social_link">
+                      <a href="mailto:praveenbabria2021@gmail.com"><i class="fa fa-envelope"></i></a>
+                      <a href="tel:+916377456173"><i class="fa fa-mobile-phone"></i></a>
+                      <a href="#"><i class="fa fa-"></i></a>
+                    </div>
+                  </div>
+                  <div class="master_name text-center">
+                    <h3>Praveen</h3>
+                    <p>Volleyball</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-6 col-lg-3">
+                <div class="single_team">
+                  <div class="thumb">
+                    <img src="img/Shashi(Mess).jpg" alt="" height="280px" />
+                    <div class="social_link">
+                      <a href="mailto:sbs9827@gmail.com"><i class="fa fa-envelope"></i></a>
+                      <a href="tel:+917987394702"><i class="fa fa-mobile-phone"></i></a>
+                      <a href="#"><i class="fa fa-"></i></a>
+                    </div>
+                  </div>
+                  <div class="master_name text-center">
+                    <h3>Shashi Bhushan Singh</h3>
+                    <p>Football</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-6 col-lg-3">
+                <div class="single_team">
+                  <div class="thumb">
+                    <img src="img/ishaan(tennis).jpeg" alt="" height="280px" />
+                    <div class="social_link">
+                      <a href="mailto:"><i class="fa fa-envelope"></i></a>
+                      <a href="tel:"><i class="fa fa-mobile-phone"></i></a>
+                      <a href="#"><i class="fa fa-"></i></a>
+                    </div>
+                  </div>
+                  <div class="master_name text-center">
+                    <h3>Ishaan Maitreya</h3>
+                    <p>Tennis</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-6 col-lg-3">
+                <div class="single_team">
+                  <div class="thumb">
+                    <img src="img/aditya(baddy).jpeg" alt="" height="280px" />
+                    <div class="social_link">
+                      <a href="mailto:"><i class="fa fa-envelope"></i></a>
+                      <a href="tel:+91"><i class="fa fa-mobile-phone"></i></a>
+                      <a href="#"><i class="fa fa-"></i></a>
+                    </div>
+                  </div>
+                  <div class="master_name text-center">
+                    <h3>Aditya Mudgal</h3>
+                    <p>Badminton</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-3 col-md-6 col-lg-3">
+                <div class="single_team">
+                  <div class="thumb">
+                    <img src="img/Hardik(maint).jpg" alt="" height="280px" />
+                    <div class="social_link">
+                      <a href="mailto:tmkoc2000@gmail.com"><i class="fa fa-envelope"></i></a>
+                      <a href="tel:+919530368472"><i class="fa fa-mobile-phone"></i></a>
+                      <a href="#"><i class="fa fa-"></i></a>
+                    </div>
+                  </div>
+                  <div class="master_name text-center">
+                    <h3>Hardik Tanwar</h3>
+                    <p>Indoor Sports</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h3 style="
+                  text-align: center;
+                  font-weight: bold;
+                  font-style: 'Comic Sans MS', cursive, sans-serif;
+                ">
+             VICE CAPTAINS
+            </h3>
+            <br />
+            <div class="row">
+              <div class="col-xl-3 col-md-6 col-lg-3">
+                <div class="single_team">
+                  <div class="thumb">
+                    <img src="img/Ekansh Singh_cricket_VC.jpg" alt="" height="280px" />
+                    <div class="social_link">
+                      <a href="mailto:ysingh2434@gmail.com"><i class="fa fa-envelope"></i></a>
+                      <a href="tel:+917494915644"><i class="fa fa-mobile-phone"></i></a>
+                      <a href="#"><i class="fa fa-"></i></a>
+                    </div>
+                  </div>
+                  <div class="master_name text-center">
+                    <h3>Ekansh Singh</h3>
+                    <p>Cricket</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-6 col-lg-3">
+                <div class="single_team">
+                  <div class="thumb">
+                    <img src="img/Aakarshangarg_VC_Football.JPG" alt="" height="280px" />
+                    <div class="social_link">
+                      <a href="mailto:aniketbsawant19@gmail.com"><i class="fa fa-envelope"></i></a>
+                      <a href="tel:+918605099063"><i class="fa fa-mobile-phone"></i></a>
+                      <a href="#"><i class="fa fa-"></i></a>
+                    </div>
+                  </div>
+                  <div class="master_name text-center">
+                    <h3>Aakarshan Garg</h3>
+                    <p>Football</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-6 col-lg-3">
+                <div class="single_team">
+                  <div class="thumb">
+                    <img src="img/Chandrakant Rajput_Hockey_VC.jpg" alt="" height="280px" />
+                    <div class="social_link">
+                      <a href="mailto:yateeksingh020@gmail.com"><i class="fa fa-envelope"></i></a>
+                      <a href="tel:+917771861487"><i class="fa fa-mobile-phone"></i></a>
+                      <a href="#"><i class="fa fa-"></i></a>
+                    </div>
+                  </div>
+                  <div class="master_name text-center">
+                    <h3>Chandrakant Rajput</h3>
+                    <p>Hockey</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-6 col-lg-3">
+                <div class="single_team">
+                  <div class="thumb">
+                    <img src="img/Anshul Nagdeve_Basket_VC.jpg" alt="" height="280px" />
+                    <div class="social_link">
+                      <a href="mailto:shubhamoliver23@gmail.com"><i class="fa fa-envelope"></i></a>
+                      <a href="tel:+918112253582"><i class="fa fa-mobile-phone"></i></a>
+                      <a href="#"><i class="fa fa-"></i></a>
+                    </div>
+                  </div>
+                  <div class="master_name text-center">
+                    <h3>Anshul Nagdeve</h3>
+                    <p>Basketball</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-3 col-md-6 col-lg-3">
+                <div class="single_team">
+                  <div class="thumb">
+                    <img src="img/Lakshya goyal_TableTennis_VC.jpg" alt="" height="280px" />
+                    <div class="social_link">
+                      <a href="mailto:abhishekpalway@gmail.com"><i class="fa fa-envelope"></i></a>
+                      <a href="tel:+919039223343"><i class="fa fa-mobile-phone"></i></a>
+                      <a href="#"><i class="fa fa-"></i></a>
+                    </div>
+                  </div>
+                  <div class="master_name text-center">
+                    <h3>Lakshya Goyal</h3>
+                    <p>Table Tennis</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-6 col-lg-3">
+                <div class="single_team">
+                  <div class="thumb">
+                    <img src="img/Tanish Singh Tak_VC_VolleyBall.jpg" alt="" height="280px" />
+                    <div class="social_link">
+                      <a href="mailto:rajatjhawar20@gmail.com"><i class="fa fa-envelope"></i></a>
+                      <a href="tel:+917771961466"><i class="fa fa-mobile-phone"></i></a>
+                      <a href="#"><i class="fa fa-"></i></a>
+                    </div>
+                  </div>
+                  <div class="master_name text-center">
+                    <h3>Tanish Singh Tak</h3>
+                    <p>Volleyball</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-6 col-lg-3">
+                <div class="single_team">
+                  <div class="thumb">
+                    <img src="img/Harshit Mawandia_Baddy_vc.jpg" alt="" height="280px" />
+                    <div class="social_link">
+                      <a href="mailto:bonnie552k@gmail.com"><i class="fa fa-envelope"></i></a>
+                      <a href="tel:+919348567712"><i class="fa fa-mobile-phone"></i></a>
+                      <a href="#"><i class="fa fa-"></i></a>
+                    </div>
+                  </div>
+                  <div class="master_name text-center">
+                    <h3>Harshit Mawandia</h3>
+                    <p>Badminton</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-6 col-lg-3">
+                <div class="single_team">
+                  <div class="thumb">
+                    <img src="img/Abhimanu_ISC_VC.jpg" alt="" height="280px" />
+                    <div class="social_link">
+                      <a href="mailto:premkhandelwal530@gmail.com"><i class="fa fa-envelope"></i></a>
+                      <a href="tel:+916350300554"><i class="fa fa-mobile-phone"></i></a>
+                    </div>
+                  </div>
+                  <div class="master_name text-center">
+                    <h3>Abhimanu Sinha</h3>
+                    <p>ISC</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-3 col-md-6 col-lg-3">
+                <div class="single_team">
+                  <div class="thumb">
+                    <img src="img/Srijan Gupta_VC_WeightLifting.jpg" alt="" height="280px" />
+                    <div class="social_link">
+                      <a href="mailto:mohit19082001@gmail.com"><i class="fa fa-envelope"></i></a>
+                      <a href="tel:+918602616938"><i class="fa fa-mobile-phone"></i></a>
+                    </div>
+                  </div>
+                  <div class="master_name text-center">
+                    <h3>Srijan Gupta</h3>
+                    <p>Weightlifting</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-6 col-lg-3">
+                <div class="single_team">
+                  <div class="thumb">
+                    <img src="img/Aditya Rahi_Tennis_VC.jpg" alt="" height="280px" />
+                    <div class="social_link">
+                      <a href="mailto:meenaaabhishek3030@gmail.com"><i class="fa fa-envelope"></i></a>
+                      <a href="tel:+917357805959"><i class="fa fa-mobile-phone"></i></a>
+                      <a href="#"><i class="fa fa-"></i></a>
+                    </div>
+                  </div>
+                  <div class="master_name text-center">
+                    <h3>Aditya Rahi</h3>
+                    <p>Tennis</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-6 col-lg-3">
+                <div class="single_team">
+                  <div class="thumb">
+                    <img src="img/Madukuri Shaurya_Athletics_VC.jpg" alt="" height="280px" />
+                    <div class="social_link">
+                      <a href="mailto:kumarsonu31121999@gmail.com"><i class="fa fa-envelope"></i></a>
+                      <a href="tel:+919350034116"><i class="fa fa-mobile-phone"></i></a>
+                      <a href="#"><i class="fa fa-"></i></a>
+                    </div>
+                  </div>
+                  <div class="master_name text-center">
+                    <h3>Madukuri Shaurya</h3>
+                    <p>Athletics</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-6 col-lg-3">
+                <div class="single_team">
+                  <div class="thumb">
+                    <img src="img/Anoop Kumar Patel_Squash_VC.jpg" alt="" height="280px" />
+                    <div class="social_link">
+                      <a href="mailto:shashwatgarg7@gmail.com"><i class="fa fa-envelope"></i></a>
+                      <a href="tel:+919068050900"><i class="fa fa-mobile-phone"></i></a>
+                      <a href="#"><i class="fa fa-"></i></a>
+                    </div>
+                  </div>
+                  <div class="master_name text-center">
+                    <h3>Anoop Kumar Patel</h3>
+                    <p>Squash</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade our_team_member" id="Web" role="tabpanel" aria-labelledby="Web-tab">
+            <div class="row">
+              <div class="align-item-center"
+                style="margin: 0 auto; float: none; margin-bottom: 10px;width:50%;height:20%">
+                <div class="single_team">
+                  <div class="thumb">
+                    <img src="img/Jakhar(BSW).jpeg" alt="" />
+                    <div class="social_link">
+                      <a href="mailto:shubham3400jakhar@gmail.com"><i class="fa fa-envelope"></i></a>
+                      <a href="tel:+919672061934"><i class="fa fa-mobile-phone"></i></a>
+                    </div>
+                  </div>
+                  <div class="master_name text-center">
+                    <h3>Shubham Jakhar</h3>
+                    <p>Maintenance Secretary</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br />
+            <h3 style="
+                  text-align: center;
+                  font-weight: bold;
+                  font-style: 'Comic Sans MS', cursive, sans-serif;
+                ">
+              Maint Team
+            </h3>
+            <br />
+            <div class="row">
+              <div class="col-xl-3 col-md-6 col-lg-3">
+                <div class="single_team">
+                  <div class="thumb">
+                    <img src="" alt="" />
+                    <div class="social_link">
+                      <a href="#"><i class="fa fa-envelope"></i></a>
+                      <a href="#"><i class="fa fa-mobile-phone"></i></a>
+                      <a href="#"><i class="fa fa-"></i></a>
+                    </div>
+                  </div>
+                  <div class="master_name text-center">
+                    <h3>N.A</h3>
+                    <p>Member</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-6 col-lg-3">
+                <div class="single_team">
+                  <div class="thumb">
+                    <img src="" alt="" />
+                    <div class="social_link">
+                      <a href="#"><i class="fa fa-envelope"></i></a>
+                      <a href="#"><i class="fa fa-mobile-phone"></i></a>
+                      <a href="#"><i class="fa fa-"></i></a>
+                    </div>
+                  </div>
+                  <div class="master_name text-center">
+                    <h3>N.A</h3>
+                    <p>Member</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-6 col-lg-3">
+                <div class="single_team">
+                  <div class="thumb">
+                    <img src="img/aarya(bsw).jfif" alt="" />
+                    <div class="social_link">
+                      <a href="#"><i class="fa fa-envelope"></i></a>
+                      <a href="#"><i class="fa fa-mobile-phone"></i></a>
+                      <a href="#"><i class="fa fa-"></i></a>
+                    </div>
+                  </div>
+                  <div class="master_name text-center">
+                    <h3>Aarya Oganja</h3>
+                    <p>Member</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-6 col-lg-3">
+                <div class="single_team">
+                  <div class="thumb">
+                    <img src="img/animesh(bsw).jpeg" alt="" />
+                    <div class="social_link">
+                      <a href="#"><i class="fa fa-envelope"></i></a>
+                      <a href="#"><i class="fa fa-mobile-phone"></i></a>
+                      <a href="#"><i class="fa fa-"></i></a>
+                    </div>
+                  </div>
+                  <div class="master_name text-center">
+                    <h3>Animesh Jhawar</h3>
+                    <p>Member</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <!-- popular_courses_end-->
+
+  <!-- testimonial_area_end -->
+
+  <!-- subscribe_newsletter_Start -->
+
+  <!-- subscribe_newsletter_end -->
+
+  <!-- our_latest_blog_start -->
+
+  <!-- our_latest_blog_end -->
+
+  <!-- footer -->
+  <footer class="footer footer_bg_1">
+
+    <div class="copy-right_text">
+      <div class="container">
+        <div class="footer_border"></div>
+        <div class="row">
+          <div class="col-xl-12">
+            <p class="copy_right text-center">
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              Copyright &copy;
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              All rights reserved
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+              <br>
+              <a href="https://scoder08.github.io/shresth" style="color:#919191;">Shresth Saxena</a> | <a
+                href="https://github.com/rishijain55" style="color:#919191;">Rishi Jain</a> | <a
+                href="https://github.com/vatsal-cmd" style="color:#919191;">Vatsal Jingar</a>
+
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer -->
+
+  <!-- form itself end-->
+  <!-- <form id="test-form" class="white-popup-block mfp-hide">
+      <div class="popup_box">
+        <div class="popup_inner">
+          <div class="logo text-center">
+            <a href="#">
+              <img src="img/logok2.png" alt="" />
+            </a>
+          </div>
+          <h3>Sign in</h3>
+          <form action="#">
+            <div class="row">
+              <div class="col-xl-12 col-md-12">
+                <input type="email" placeholder="Enter email" />
+              </div>
+              <div class="col-xl-12 col-md-12">
+                <input type="password" placeholder="Password" />
+              </div>
+              <div class="col-xl-12">
+                <button type="submit" class="boxed_btn_orange">Sign in</button>
+              </div>
+            </div>
+          </form>
+          <p class="doen_have_acc">
+            Don’t have an account?
+            <a class="dont-hav-acc" href="#test-form2">Sign Up</a>
+          </p>
+        </div>
+      </div>
+    </form> -->
+  <!-- form itself end -->
+  <form id="test-form3" class="white-popup-block mfp-hide">
+    <div class="popup_box">
+      <div class="popup_inner">
+        <div class="logo text-center">
+          <a href="#">
+            <img src="img/favicon.ico" alt="" />
+          </a>
+        </div>
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSeSDEgEwwQNHlVUAQlLUDeyTBXgrbNyc2RMxem5j3KZAYiv1g/viewform?embedded=true"
+          width="100%" height="630" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      </div>
+    </div>
+  </form>
+  <form id="test-form2" class="white-popup-block mfp-hide">
+    <div class="popup_box">
+      <div class="popup_inner">
+        <div class="logo text-center">
+          <a href="#">
+            <img src="img/favicon.ico" alt="" />
+          </a>
+        </div>
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSdGmOcnBXaG2WmCmBfCk8JQhogQWbd52zgBvh6cR8aBDXhHUw/viewform?usp=sf_link"
+          width="100%" height="630" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      </div>
+    </div>
+  </form>
+  <!-- form itself end-->
+  <!-- <form id="test-form2" class="white-popup-block mfp-hide">
+      <div class="popup_box">
+        <div class="popup_inner">
+          <div class="logo text-center">
+            <a href="#">
+              <img src="img/logok2.png" alt="" />
+            </a>
+          </div>
+          <h3>Resistration</h3>
+          <form action="#">
+            <div class="row">
+              <div class="col-xl-12 col-md-12">
+                <input type="email" placeholder="Enter email" />
+              </div>
+              <div class="col-xl-12 col-md-12">
+                <input type="password" placeholder="Password" />
+              </div>
+              <div class="col-xl-12 col-md-12">
+                <input type="Password" placeholder="Confirm password" />
+              </div>
+              <div class="col-xl-12">
+                <button type="submit" class="boxed_btn_orange">Sign Up</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </form> -->
+  <!-- form itself end -->
+
+  <!-- JS here -->
+  <script>
+    $(document).ready(function () {
+      setTimeout(function () {
+        $('#loading').fadeOut();
+      }, 1000);
+    })
+
+  </script>
+  <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+  <script src="js/vendor/jquery-1.12.4.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script src="js/ajax-form.js"></script>
+  <script src="js/waypoints.min.js"></script>
+  <script src="js/jquery.counterup.min.js"></script>
+  <script src="js/imagesloaded.pkgd.min.js"></script>
+  <script src="js/scrollIt.js"></script>
+  <script src="js/jquery.scrollUp.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/nice-select.min.js"></script>
+  <script src="js/jquery.slicknav.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/gijgo.min.js"></script>
+
+  <!--contact js-->
+  <script src="js/contact.js"></script>
+  <script src="js/jquery.ajaxchimp.min.js"></script>
+  <script src="js/jquery.form.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/mail-script.js"></script>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
